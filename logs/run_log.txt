@@ -1,0 +1,107 @@
+[2026-10-01 10:26:10] Working folder: /content/drive/MyDrive/AMAZTA
+[2026-10-01 10:26:10] Steps already done: []
+[2026-10-01 10:26:17] xgboost: 3.4.1 | torch: 2.11.0+cu128 | GPU: True
+[2026-10-01 10:29:17] Working folder: /content/drive/MyDrive/AMAZTA
+[2026-10-01 10:29:18] Steps already done: []
+[2026-10-01 10:29:23] xgboost: 3.4.1 | torch: 2.11.0+cu128 | GPU: True
+[2026-10-01 10:29:43] kaggle.json received and saved to Drive (kaggle.json)
+[2026-10-01 10:29:43] Downloading train_transaction.csv ... (the first run takes a few minutes)
+[2026-10-01 10:33:06] Working folder: /content/drive/MyDrive/AMAZTA
+[2026-10-01 10:33:06] Steps already done: []
+[2026-10-01 10:33:06] xgboost: 3.4.1 | torch: 2.11.0+cu128 | GPU: True
+[2026-10-01 10:33:11] Downloading train_transaction.csv ... (the first run takes a few minutes)
+[2026-10-01 10:35:28] Downloading train_transaction.csv ... (the first run takes a few minutes)
+[2026-10-01 10:48:53] Working folder: /content/drive/MyDrive/AMAZTA
+[2026-10-01 10:48:54] Steps already done: []
+[2026-10-01 10:49:00] xgboost: 3.4.1 | torch: 2.11.0+cu128 | GPU: True
+[2026-10-01 10:49:04] Downloading train_transaction.csv ... (the first run takes a few minutes)
+[2026-10-01 10:49:15] Extracted train_transaction.csv
+[2026-10-01 10:49:15] Downloading train_identity.csv ... (the first run takes a few minutes)
+[2026-10-01 10:49:17] Extracted train_identity.csv
+[2026-10-01 10:49:17] IEEE-CIS download complete
+[2026-10-01 10:49:18] ziya07 dataset downloaded
+[2026-10-01 10:49:18] Reading CSVs ...
+[2026-10-01 10:50:04] SAVED: step1_merge complete
+[2026-10-01 10:50:04] SAVED: step2_split complete
+[2026-10-01 10:50:04] Split sizes: {'done': True, 'time': '2026-10-01 10:50:04', 'train': 413378, 'val': 88581, 'test': 88581, 'n_features': {'identity': 44, 'device': 7, 'behavior': 378, 'context': 5, 'all': 434}}
+[2026-10-01 10:50:05] identity: rounds=100 val_AUC=0.7869 (best 0.7869 @ 100) [saved]
+[2026-10-01 10:50:07] identity: rounds=200 val_AUC=0.7964 (best 0.7964 @ 200) [saved]
+[2026-10-01 10:50:10] identity: rounds=300 val_AUC=0.8029 (best 0.8029 @ 300) [saved]
+[2026-10-01 10:50:13] identity: rounds=400 val_AUC=0.8079 (best 0.8079 @ 400) [saved]
+[2026-10-01 10:50:20] identity: rounds=500 val_AUC=0.8126 (best 0.8126 @ 500) [saved]
+[2026-10-01 10:50:26] identity: rounds=600 val_AUC=0.8143 (best 0.8143 @ 600) [saved]
+[2026-10-01 10:50:34] identity: rounds=700 val_AUC=0.8162 (best 0.8162 @ 700) [saved]
+[2026-10-01 10:50:41] identity: rounds=800 val_AUC=0.8167 (best 0.8167 @ 800) [saved]
+[2026-10-01 10:50:52] identity: rounds=900 val_AUC=0.8174 (best 0.8174 @ 900) [saved]
+[2026-10-01 10:51:02] identity: rounds=1000 val_AUC=0.8175 (best 0.8174 @ 900) [saved]
+[2026-10-01 10:51:02] SAVED: agent_identity complete
+[2026-10-01 10:51:03] device: rounds=100 val_AUC=0.6806 (best 0.6806 @ 100) [saved]
+[2026-10-01 10:51:04] device: rounds=200 val_AUC=0.6819 (best 0.6819 @ 200) [saved]
+[2026-10-01 10:51:05] device: rounds=300 val_AUC=0.6799 (best 0.6819 @ 200) [saved]
+[2026-10-01 10:51:07] device: rounds=400 val_AUC=0.6790 (best 0.6819 @ 200) [saved]
+[2026-10-01 10:51:09] device: rounds=500 val_AUC=0.6796 (best 0.6819 @ 200) [saved]
+[2026-10-01 10:51:09] SAVED: agent_device complete
+[2026-10-01 10:51:21] threat: rounds=100 val_AUC=0.9031 (best 0.9031 @ 100) [saved]
+[2026-10-01 10:51:27] threat: rounds=200 val_AUC=0.9121 (best 0.9121 @ 200) [saved]
+[2026-10-01 10:51:36] threat: rounds=300 val_AUC=0.9161 (best 0.9161 @ 300) [saved]
+[2026-10-01 10:51:46] threat: rounds=400 val_AUC=0.9178 (best 0.9178 @ 400) [saved]
+[2026-10-01 10:51:57] threat: rounds=500 val_AUC=0.9202 (best 0.9202 @ 500) [saved]
+[2026-10-01 10:52:11] threat: rounds=600 val_AUC=0.9213 (best 0.9213 @ 600) [saved]
+[2026-10-01 10:52:27] threat: rounds=700 val_AUC=0.9221 (best 0.9221 @ 700) [saved]
+[2026-10-01 10:52:44] threat: rounds=800 val_AUC=0.9222 (best 0.9222 @ 800) [saved]
+[2026-10-01 10:53:03] threat: rounds=900 val_AUC=0.9232 (best 0.9232 @ 900) [saved]
+[2026-10-01 10:53:25] threat: rounds=1000 val_AUC=0.9239 (best 0.9239 @ 1000) [saved]
+[2026-10-01 10:53:49] threat: rounds=1100 val_AUC=0.9242 (best 0.9242 @ 1100) [saved]
+[2026-10-01 10:54:14] threat: rounds=1200 val_AUC=0.9244 (best 0.9244 @ 1200) [saved]
+[2026-10-01 10:54:41] threat: rounds=1300 val_AUC=0.9244 (best 0.9244 @ 1200) [saved]
+[2026-10-01 10:55:10] threat: rounds=1400 val_AUC=0.9243 (best 0.9244 @ 1200) [saved]
+[2026-10-01 10:55:42] threat: rounds=1500 val_AUC=0.9246 (best 0.9246 @ 1500) [saved]
+[2026-10-01 10:56:14] threat: rounds=1600 val_AUC=0.9245 (best 0.9246 @ 1500) [saved]
+[2026-10-01 10:56:50] threat: rounds=1700 val_AUC=0.9239 (best 0.9246 @ 1500) [saved]
+[2026-10-01 10:57:28] threat: rounds=1800 val_AUC=0.9236 (best 0.9246 @ 1500) [saved]
+[2026-10-01 10:57:28] SAVED: agent_threat complete
+[2026-10-01 10:57:43] Autoencoder epoch 1/12 loss=0.2441 [saved]
+[2026-10-01 10:57:45] Autoencoder epoch 2/12 loss=0.1213 [saved]
+[2026-10-01 10:57:47] Autoencoder epoch 3/12 loss=0.0956 [saved]
+[2026-10-01 10:57:49] Autoencoder epoch 4/12 loss=0.0844 [saved]
+[2026-10-01 10:57:52] Autoencoder epoch 5/12 loss=0.0771 [saved]
+[2026-10-01 10:57:55] Autoencoder epoch 6/12 loss=0.0717 [saved]
+[2026-10-01 10:57:57] Autoencoder epoch 7/12 loss=0.0676 [saved]
+[2026-10-01 10:57:59] Autoencoder epoch 8/12 loss=0.0644 [saved]
+[2026-10-01 10:58:01] Autoencoder epoch 9/12 loss=0.0621 [saved]
+[2026-10-01 10:58:04] Autoencoder epoch 10/12 loss=0.0600 [saved]
+[2026-10-01 10:58:07] Autoencoder epoch 11/12 loss=0.0584 [saved]
+[2026-10-01 10:58:09] Autoencoder epoch 12/12 loss=0.0569 [saved]
+[2026-10-01 10:58:09] SAVED: agent_behavior complete
+[2026-10-01 10:58:09] SAVED: agent_context complete
+[2026-10-01 10:58:15] Scored chunk 0 (50000/177162) [saved]
+[2026-10-01 10:58:22] Scored chunk 1 (100000/177162) [saved]
+[2026-10-01 10:58:27] Scored chunk 2 (150000/177162) [saved]
+[2026-10-01 10:58:30] Scored chunk 3 (177162/177162) [saved]
+[2026-10-01 10:58:30] SAVED: step6_score complete
+[2026-10-01 10:58:33] Trust weights: {'I': 0.6, 'D': 0.1, 'B': 0.2, 'C': 0.1} (val AP of 1-T = 0.3470)
+[2026-10-01 10:58:36] Risk weights: {'T': 0.1, 'A': 0.6, 'V': 0.1, 'Ba': 0.1, 'Cp': 0.1} (val AP = 0.4939)
+[2026-10-01 10:58:39] alpha search (alpha, val AP): [[0.0, 0.49389766404640556], [0.2, 0.49191285613366825], [0.4, 0.4901783569200354], [0.5, 0.48949018448341763], [0.6, 0.48923663959858266], [0.7, 0.4891690580895254], [0.8, 0.4889619497358975], [0.9, 0.48737534187672754]] -> best alpha=0.0
+[2026-10-01 10:58:41] SAVED: step7_fusion complete
+[2026-10-01 10:58:43] SAVED: step8_eval complete
+[2026-10-01 10:58:49] Batch 100: 0.10s (998 req/s)
+[2026-10-01 10:58:49] Batch 1000: 0.16s (6293 req/s)
+[2026-10-01 10:58:50] Batch 10000: 1.11s (8994 req/s)
+[2026-10-01 10:58:55] Batch 50000: 4.74s (10555 req/s)
+[2026-10-01 10:58:55] SAVED: step9_latency complete
+[2026-10-01 10:58:56] Figure saved: fig_roc.png
+[2026-10-01 10:58:56] Figure saved: fig_pr.png
+[2026-10-01 10:58:56] Figure saved: fig_confusion.png
+[2026-10-01 10:58:57] Figure saved: fig_actions.png
+[2026-10-01 10:58:57] Figure saved: fig_trust_distribution.png
+[2026-10-01 10:58:57] Figure saved: fig_alpha_sensitivity.png
+[2026-10-01 10:58:58] Figure saved: fig_ablation.png
+[2026-10-01 10:58:58] Figure saved: fig_scalability.png
+[2026-10-01 10:58:59] Figure saved: fig_feature_importance.png
+[2026-10-01 10:59:00] Figure saved: fig_training_curves.png
+[2026-10-01 10:59:00] SAVED: step10_figures complete
+[2026-10-01 10:59:03] Figure saved: fig_case_study_actions.png
+[2026-10-01 10:59:03] Case study: {'rows': 1000, 'fraud_rate': 0.481, 'ROC_AUC': 0.5218695796730479, 'PR_AUC': 0.4941284000687061, 'actions': {'Allow': 675, 'Restrict': 225, 'Deny': 95, 'Isolate': 5}}
+[2026-10-01 10:59:03] NOTE: ziya07 is synthetic data. Do not report its AUC as a main result; use it only to demonstrate the decision workflow.
+[2026-10-01 10:59:03] SAVED: step11_case_study complete
+[2026-10-01 10:59:03] ================ ALL DONE ================

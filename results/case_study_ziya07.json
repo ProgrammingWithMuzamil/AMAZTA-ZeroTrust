@@ -1,0 +1,12 @@
+{
+  "rows": 1000,
+  "fraud_rate": 0.481,
+  "ROC_AUC": 0.5218695796730479,
+  "PR_AUC": 0.4941284000687061,
+  "actions": {
+    "Allow": 675,
+    "Restrict": 225,
+    "Deny": 95,
+    "Isolate": 5
+  }
+}

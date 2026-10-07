@@ -1,0 +1,5 @@
+Action,Normal,Fraud
+Allow,76180,946
+Restrict,7384,637
+Deny,1228,418
+Isolate,706,1082

@@ -1,0 +1,16 @@
+# Data and credentials (never commit these)
+kaggle.json
+access_token
+*.env
+data_raw/
+data/
+*.parquet
+*.pkl
+
+# Model checkpoints
+checkpoints/
+models/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
